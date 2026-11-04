@@ -69,7 +69,7 @@ function AppShell({ role, setRole, active, setActive, children, resetDemo }) {
         </div>
       </aside>
       <main className="main">
-        <header className="topbar"><div><span className="eyebrow">MATCHDAY SOCIAL FOOTBALL</span><h1>{active}</h1></div><div className="profile"><div className="avatar">TM</div><div><strong>Tshego</strong><span>{role}</span></div></div></header>
+        <header className="topbar"><div><span className="eyebrow">🟢 GITHUB SYNC TEST · 04 NOV 2026</span><h1>{active}</h1></div><div className="profile"><div className="avatar">TM</div><div><strong>Tshego</strong><span>{role}</span></div></div></header>
         {children}
       </main>
     </div>
